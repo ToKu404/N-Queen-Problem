@@ -1,11 +1,7 @@
-# N queen problem solver with DFS backtracking
-# #%%
+
 import os
 import time
 import psutil
-# import numpy as np
-
-# from plot import plot
 
 
 class BacktrackingDFS:
@@ -96,14 +92,14 @@ class BacktrackingDFS:
 
 # #%%
 # main
-if __name__ == "__main__":
-    n = int(input("Masukkan jumlah queen : "))
-    board = [[] for i in range(n)]
-    for i in range(n):
-        for j in range(n):
-            board[i].append(0)
+# if __name__ == "__main__":
+#     n = int(input("Masukkan jumlah queen : "))
+#     board = [[] for i in range(n)]
+#     for i in range(n):
+#         for j in range(n):
+#             board[i].append(0)
 
-    n_queen_backtracking = BacktrackingDFS(n)
-    solution = n_queen_backtracking.print_solution_and_status(board)
+#     n_queen_backtracking = BacktrackingDFS(n)
+#     solution = n_queen_backtracking.print_solution_and_status(board)
 
     # plot(solution)

@@ -174,9 +174,3 @@ class HillClimbingRandomRestart:
         )
         # return solution
         return solution
-
-
-# if __name__ == "__main__":
-#     n_queen_hc = HillClimbingRandomRestart(
-#         int(input("Masukkan jumlah queen : ")))
-#     solution = n_queen_hc.print_solution_and_status()
